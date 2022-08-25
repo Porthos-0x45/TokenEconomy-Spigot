@@ -1,0 +1,26 @@
+name: LG-Tokens
+version: '${project.version}'
+main: me.pixel.tokens.Main
+api-version: 1.16
+authors: [ PixelDev ]
+description: Tokens plugin
+prefix: token
+load: STARTUP
+
+softdepend:
+  - PlaceholderAPI
+
+permissions:
+  token.owner:
+    description: all commands for this plugin
+    default: op
+  token.admin:
+    description: default commands + some extras for admins to use
+  token.use:
+    description: default permission (give it to players)
+    default: not op
+
+commands:
+  token:
+    description: Token economy
+    usage: /<command>

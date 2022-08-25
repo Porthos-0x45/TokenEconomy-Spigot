@@ -1,0 +1,27 @@
+# | Placeholders in scoreboards and stuff |
+# %lgcoin_balance% - Returns Player token
+
+database:
+  backup: false # When MySQL is not working it will use sqlite database instead. [Backups are made automatically]
+
+  mysql:
+    # Host IP
+    host: 127.0.0.1
+    # Port
+    port: 3306
+    # Name of database
+    databaseName: 'pixeldev'
+    # Name of user to access
+    user: 'root'
+    # Password
+    password: ''
+  sqlite:
+    enabled: false
+    databaseName: 'database.db'
+
+# Show/hide message when set player tokens
+set-message: false
+
+# Do not overwrite the original lang.yml file, always make a new one copy the defaults and set the name here!
+lang-file: 'lang.yml'
+

@@ -1,0 +1,37 @@
+# Messages for the plugin
+
+# placeholders in this yaml file:
+#  - %player_balance%
+#  - %target_balance%
+#  - %player_name%
+#  - %target_name%
+#  - %transfer_amount%
+#  - %removed_amount%
+#  - %error%
+
+set-message: '&eSuccessfully set tokens amount of player &c%target_name%'
+pay-message-target: '&aSuccessfully transferred &2%transfer_amount% &aTo player &e%target_name%'
+pay-to-yourself-warn: '&r&cYou cant send tokens to yourself.'
+receive-tokens: '&aYou have received &2%transfer_amount% &aTokens from player &e%player_name%'
+remove-message: '&aSuccessfully removed &2%removed_amount% &aFrom player &e%target_name%'
+balance-message-self: '&aYour token balance is: &r&e%player_balance%'
+balance-message-target: '&e%target_name%s balance is: &a%target_balance%'
+wrong-command: '&cOops, wrong command! &aTry one of these:\n&r&e/token help'
+no-permission: '&cYou dont have permission to use this command'
+not-enough-tokens: '&c&lYou dont have enough tokens!'
+reload-config: '&6Config reloaded!'
+disable-plugin: '&4&lDISABLING PLUGIN!'
+top5-command-message: '&aToken Balance top 5: '
+topall-command-message: '&aToken Balance top all: '
+removed-user-from-database: '&aSuccessfully removed &2%target_name% &aFrom database'
+reset-plugin-message: 'RESTART THE SERVER!'
+no-page: '&cNo such a page number. Try 1-2'
+want-to-see-all: '&6If you want to see all type: \n&e/token topall'
+add-message: '&eSuccessfully added tokens amount of player &c%target_name%'
+set-receiver-message: '&aYou have received &e%transfer_amount% &aTokens from &8%player_name%'
+
+# ERRORS:
+player-not-found: '&cThis player does not exists'
+err-database-notconnected: '&cDATABASE NOT CONNECTED'
+err-database-notconnected-message: '&4Database connection cannot be established!'
+err-database-notconnected-report: '&cERROR: Please report this issue right away: %error%'
