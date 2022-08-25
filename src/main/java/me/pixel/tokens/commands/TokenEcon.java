@@ -57,6 +57,7 @@ public class TokenEcon implements CommandExecutor
                 return true;
             }
 
+
             if (args[0].equalsIgnoreCase("help"))
             {
                 TextComponent[] commands = {
